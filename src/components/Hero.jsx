@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
           </div>
         </div>
-        <div className="sm:w-[65%] h-[50%] sm:h-[75%] w-full -mt-8 z-10"><ComputersCanvas /></div>
+        <div className="sm:w-[65%] h-[65%] sm:h-[75%] w-full -mt-8 z-10 border-2 border-white"><ComputersCanvas /></div>
         
       </div>
       
