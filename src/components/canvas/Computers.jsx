@@ -23,7 +23,7 @@ const Computers = ({ isMobile }) => {
       
       <primitive 
         object={computer.scene}
-        scale={isMobile ? 0.5 : 0.70}
+        scale={isMobile ? 1 : 1.3}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
@@ -57,7 +57,7 @@ const ComputerCanvas = ()=> {
     <Canvas frameloop="demand"
     shadows
     camera={{ position: [20, 3, 5], fov: 25 }}
-    gl={{preserveDrawingBuffer: true}}>
+    gl={{preserveDrawingBuffer: true}} >
       <Suspense fallback={<CanvasLoader/>}>
         <OrbitControls
           enableZoom={false}

@@ -28,8 +28,8 @@ const ServiceCard = ({ title, icon })=> {
 }
 const About = () => {
   return (
-    <>
-    <motion.div variants={textVariant()} id='about'>
+    <div id='about' >
+    <motion.div variants={textVariant()} >
       <p className={styles.sectionSubText} >Introduction</p>
       <h2 className={styles.sectionHeadText}>Overview</h2>
     </motion.div>
@@ -44,7 +44,7 @@ const About = () => {
             return <ServiceCard key={service.title} index={index} {...service}/>
           })}
         </div>
-    </>
+    </div>
   )
 }
 

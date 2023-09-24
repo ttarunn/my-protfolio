@@ -8,7 +8,7 @@ const TechCard = ({icon, name})=> {
 const Tech = () => {
   return (
     <>
-    <h1 className='text-center mb-10 text-4xl font-semibold'>Elevating Excellence with My Tech Stack of Choice ❤️</h1>
+    <h1 className='text-center mb-10 text-3xl font-semibold'>Elevating Excellence with My Tech Stack of Choice ❤️</h1>
     <div className='flex flex-row flex-wrap justify-center gap-10 w-full'>
       
       {technologies.map((tech)=> {
