@@ -6,7 +6,7 @@ const SocialCard = ({name, image, source_link}) => {
     return <>
     
         <Tilt>
-            <img src={image} alt={name} className='sm:w-40  w-28 cursor-pointer' onClick={() => window.open(source_link, "_blank")}/>
+            <img src={image} alt={name} className='sm:w-40  w-20 cursor-pointer' onClick={() => window.open(source_link, "_blank")}/>
         </Tilt>
     
     </>
@@ -26,5 +26,5 @@ const Social = () => {
     </>
   )
 }
-
-export default HigherOrderComp(Social,"social")
+export default Social
+// export default HigherOrderComp(Social,"social")
