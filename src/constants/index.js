@@ -22,6 +22,7 @@ import {
     FlickFlow,
     YouTube,
     instaClone,
+    wtsapp,
   } from "../assets";
   
   export const navLinks = [
@@ -124,8 +125,12 @@ import {
       iconBg: "#383E56",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "I used to take care of both on page as well as off page SEO.",
-        "Creating High Quality Backlinks in off-page SEO to Increse the rank of our project in Google SERP's"
+        "Identify relevant keywords and phrases that users are likely to search for in your niche or industry.",
+        "Optimize individual web pages by incorporating keywords into titles, headings, meta descriptions, and content. Ensure proper URL structures and use of alt tags for images.",
+        " Create high-quality, valuable, and engaging content that addresses user intent and provides solutions to their queries.",
+        "Improve website loading times for a better user experience and improved search rankings.",
+        "Address technical issues like broken links, duplicate content, XML sitemaps, and robots.txt to ensure search engines can crawl and index your site efficiently.",
+        "Build High Quality Backlinks in off-page SEO to Increase the rank of our project in Google SERP's"
       ],
     },
    
@@ -247,6 +252,11 @@ import {
     name: "Discord",
     image: discord,
     source_link: "https://discordapp.com/users/947866702568382475"
+  },
+  {
+    name: "Whatsapp",
+    image: wtsapp,
+    source_link: "https://api.whatsapp.com/send?phone=+918791701989&text=Hello Tarun!"
   }
 ]
   

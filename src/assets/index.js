@@ -28,7 +28,7 @@ import linkdin from "./social/linkdin.png";
 import gmail from "./social/gmail.png"
 import leetcode from "./social/leetcode.png"
 import discord from "./social/discord.png"
-
+import wtsapp from "./social/wtsapp.png"
 
 
 
@@ -40,6 +40,7 @@ export {
   gmail,
   leetcode,
   discord,
+  wtsapp,
   creator,
   mobile,
   web,
