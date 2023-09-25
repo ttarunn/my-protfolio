@@ -32,7 +32,7 @@ const Social = () => {
         together."
       </p>
 
-      <div className="mt-16 flex flex-wrap sm:gap-18 gap-10 justify-center m-auto -ml-2 sm:-ml-0">
+      <div className="mt-16 flex flex-wrap sm:gap-18 gap-10 justify-center m-auto -ml-2 sm:-ml-0 w-3/4">
         {social.map((project, idx) => {
           return <SocialCard key={`project-${idx}`} index={idx} {...project} />;
         })}

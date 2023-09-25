@@ -252,11 +252,6 @@ import {
     name: "Discord",
     image: discord,
     source_link: "https://discordapp.com/users/947866702568382475"
-  },
-  {
-    name: "Whatsapp",
-    image: wtsapp,
-    source_link: "https://api.whatsapp.com/send?phone=+918791701989&text=Hello Tarun!"
   }
 ]
   
