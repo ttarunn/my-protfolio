@@ -16,13 +16,16 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png"
 
 import tenX from "./company/tenX.png"
 import seo from "./company/seo.png"
+import aperion from "./company/aperion.jpg"
 
 import instaClone from "./projects/instaClone.png";
 import FlickFlow from "./projects/FlickFlow.png";
 import YouTube from "./projects/YouTube-Clone.png"
+import nextjsAuth from "./projects/nextjsAuth.png"
 
 import linkdin from "./social/linkdin.png";
 import gmail from "./social/gmail.png"
@@ -58,7 +61,10 @@ export {
   threejs,
   tenX,
   seo,
+  aperion,
   instaClone,
   FlickFlow,
-  YouTube
+  YouTube,
+  nextjsAuth,
+  nextjs
 };

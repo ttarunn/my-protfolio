@@ -45,7 +45,7 @@ const ProjectCard = ({
             onClick={() => window.open(live_link, "_blank")}
             className="w-auto bg-green-500 p-2 rounded-lg"
           >
-            Live Link
+            Demo
           </button>
           <button
             onClick={() => window.open(source_code, "_blank")}
@@ -78,7 +78,7 @@ const Works = () => {
           the boundaries of technology.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-5">
+      <div className="mt-20 flex flex-wrap gap-5 justify-center">
         {projects.map((project, idx) => {
           return (
             <ProjectCard key={`project-${idx}`} index={idx} {...project} />

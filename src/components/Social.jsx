@@ -11,6 +11,7 @@ const SocialCard = ({ name, image, source_link }) => {
           alt={name}
           className="sm:w-24  w-16 cursor-pointer"
           onClick={() => window.open(source_link, "_blank")}
+          title={name}
         />
       </Tilt>
     </>

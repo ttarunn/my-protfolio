@@ -3,7 +3,7 @@ import HigherOrderComp from './HigherOrderComp';
 import { technologies } from '../constants';
 
 const TechCard = ({icon, name})=> {
-  return <img src={icon} alt={name} className='sm:w-32 sm:h-32 w-20 h-20'/>
+  return <img src={icon} alt={name} title={name} className='sm:w-32 sm:h-32 w-20 h-20'/>
 }
 const Tech = () => {
   return (

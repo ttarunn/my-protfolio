@@ -7,6 +7,7 @@ import {
     html,
     css,
     reactjs,
+    nextjs,
     redux,
     tailwind,
     nodejs,
@@ -14,7 +15,7 @@ import {
     git,
     seo,
     tenX,
-    
+    aperion,
     linkdin,
     gmail,
     leetcode,
@@ -22,7 +23,7 @@ import {
     FlickFlow,
     YouTube,
     instaClone,
-    wtsapp,
+    nextjsAuth
   } from "../assets";
   
   export const navLinks = [
@@ -85,6 +86,10 @@ import {
       icon: redux,
     },
     {
+      name: "NextJS",
+      icon: nextjs,
+    },
+    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -104,12 +109,26 @@ import {
   ];
   
   const experiences = [
+    // {
+    //   title: "Full Stack Developer",
+    //   company_name: "Aperion Digital Media",
+    //   icon: aperion,
+    //   iconBg: "#383E56",
+    //   date: "Present",
+    //   points: [
+    //     "Spearheaded end-to-end development, including front-end and back-end components, using the MERN stack to create responsive and dynamic web applications.",
+    //     "Ensured cross-browser and cross-device compatibility for web applications, delivering a consistent user experience across various platforms.",
+    //     "Created RESTful APIs with Node.js and Express, facilitating data exchange between the front-end and back-end components, leading to a more modular and maintainable codebase.",
+    //     "Utilized Git and GitHub for version control, ensuring a well-organized and collaborative development environment.",
+    //     "Conducted and participated in code reviews to maintain code quality, adherence to coding standards, and knowledge sharing among team members."
+    //   ],
+    // },
     {
       title: "Apprenticeship",
       company_name: "The 10x Academy",
       icon: tenX,
       iconBg: "#383E56",
-      date: "Dec 2022 - Sep 2023",
+      date: "",
       points: [
         "Implemented Youtube and insta clone with the help of MERN Stack",
         "Collaborating with other Students to create user friendly and responsive projects.",
@@ -123,7 +142,7 @@ import {
       company_name: "EwebGuide",
       icon: seo,
       iconBg: "#383E56",
-      date: "Jan 2021 - Feb 2022",
+      date: "",
       points: [
         "Identify relevant keywords and phrases that users are likely to search for in your niche or industry.",
         "Optimize individual web pages by incorporating keywords into titles, headings, meta descriptions, and content. Ensure proper URL structures and use of alt tags for images.",
@@ -202,9 +221,35 @@ import {
       live_link: "https://utube-dummy.netlify.app/"
     },
     {
+      name: "NextJS Auth Project",
+      description:
+        "This is a login, signup, and forgot password implemetation for understanding of how nextjs full stack framework works.",
+        tags: [
+          {
+            name: "nextjs",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "mongodb",
+            color: "green-text-gradient",
+          },
+          {
+            name: "restapi",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "tailwindcss",
+            color: "green-text-gradient",
+          },
+        ],
+      image: nextjsAuth,
+      source_code: "https://github.com/ttarunn/nextjs-auth-project",
+      live_link: "https://next-js-auth-project.vercel.app/"
+    },
+    {
       name: "Insta Clone",
       description:
-        "A small Insta Clone Project. User can upload a new post and like and view others post.",
+        "A small Insta Photo Sharing Project. User can upload a new post and like and view others post.",
         tags: [
           {
             name: "react",
