@@ -57,7 +57,7 @@ const Navbar = () => {
                 <a
                   href={`${
                     nav.title === "Resume"
-                      ? "https://drive.google.com/file/d/1AddH0zfLk3GxxerLM_djeLpoiNx3fHyY/view"
+                      ? "https://drive.google.com/file/d/13QFSMTwJ639SwfLqm-RVTMcOtq9m3nQJ/view"
                       : "#" + nav.id
                   }`}
                 >
@@ -100,7 +100,7 @@ const Navbar = () => {
                 <a
                   href={`${
                     nav.title === "Resume"
-                      ? "https://drive.google.com/file/d/1AddH0zfLk3GxxerLM_djeLpoiNx3fHyY/view"
+                      ? "https://drive.google.com/file/d/13QFSMTwJ639SwfLqm-RVTMcOtq9m3nQJ/view"
                       : "#" + nav.id
                   }`}
                 >
