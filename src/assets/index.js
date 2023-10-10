@@ -26,6 +26,9 @@ import instaClone from "./projects/instaClone.png";
 import FlickFlow from "./projects/FlickFlow.png";
 import YouTube from "./projects/YouTube-Clone.png"
 import nextjsAuth from "./projects/nextjsAuth.png"
+import myBlog from "./projects/myBlog.png";
+
+
 
 import linkdin from "./social/linkdin.png";
 import gmail from "./social/gmail.png"
@@ -66,5 +69,6 @@ export {
   FlickFlow,
   YouTube,
   nextjsAuth,
-  nextjs
+  nextjs,
+  myBlog
 };

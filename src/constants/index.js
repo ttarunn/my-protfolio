@@ -23,7 +23,8 @@ import {
     FlickFlow,
     YouTube,
     instaClone,
-    nextjsAuth
+    nextjsAuth,
+    myBlog
   } from "../assets";
   
   export const navLinks = [
@@ -247,9 +248,9 @@ import {
       live_link: "https://next-js-auth-project.vercel.app/"
     },
     {
-      name: "Insta Clone",
+      name: "Photo Sharing App",
       description:
-        "A small Insta Photo Sharing Project. User can upload a new post and like and view others post.",
+        "Capture, share, and connect with our Photo Sharing App. Sign up, log in, and effortlessly upload your cherished moments to share with friends and family.",
         tags: [
           {
             name: "react",
@@ -273,9 +274,35 @@ import {
           },
         ],
       image: instaClone,
-      source_code: "https://github.com/ttarunn/instaclone",
-      live_link: "https://insta-dummy-clone.netlify.app/"
+      source_code: "https://github.com/ttarunn/photo-sharing-app",
+      live_link: "https://photo-wave.netlify.app/"
     },
+    // {
+    //   name: "My Blog - Real Time Editor",
+    //   description:
+    //     "Seamlessly craft, edit, and share your thoughts with our user-friendly platform. Experience hassle-free, real-time blogging that puts your creativity in the spotlight.",
+    //     tags: [
+    //       {
+    //         name: "react",
+    //         color: "blue-text-gradient",
+    //       },
+    //       {
+    //         name: "appwrite",
+    //         color: "green-text-gradient",
+    //       },
+    //       {
+    //         name: "reduxjs",
+    //         color: "pink-text-gradient",
+    //       },
+    //       {
+    //         name: "tailwind",
+    //         color: "blue-text-gradient",
+    //       }
+    //     ],
+    //   image: myBlog,
+    //   source_code: "https://github.com/ttarunn/blog-project-appwrite",
+    //   live_link: "https://blogbuzz.vercel.app/"
+    // },
     
   ];
   const social = [{
